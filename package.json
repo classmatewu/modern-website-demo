@@ -8,7 +8,8 @@
     "start": "modern start",
     "new": "modern new",
     "lint": "modern lint",
-    "dev:esm": "modern dev --unbundled"
+    "dev:esm": "modern dev --unbundled",
+    "test": "modern test"
   },
   "engines": {
     "node": ">=14.17.6"
@@ -53,7 +54,9 @@
     "@types/node": "^14",
     "@types/react": "^17",
     "@types/react-dom": "^17",
-    "typescript": "^4"
+    "typescript": "^4",
+    "@modern-js/plugin-testing": "^1.0.0",
+    "@types/jest": "^26.0.9"
   },
   "modernConfig": {
     "runtime": {
